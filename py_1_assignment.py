@@ -67,19 +67,20 @@ print(int(a))
 
 # task 15
 a = 5
-print()
-# incomplete
+print(str(a))
+
 
 # task 16
 a = input("enter a number:")
 print(int(a))
-#check
+
 
 # task 17
 a = input("enter a number:")
 b = input("enter another number:")
-print(float(c = a+b))
-#check
+c = float(a) + float(b)
+print(c)
+
 
 # task 18
 Name = input("Enter your Name:")
@@ -88,18 +89,18 @@ City = input("Enter your City Name:")
 print (Name)
 print(Age)
 print(City)
-#check
 
 # task 19
 a = input("Enter A number:")
-b = input("Enter another number;")
-add = a+b
-sub = a-b
-mul = a*b
+b = input("Enter another number:")
+num1 = int(a)
+num2 = int(b)
+add = num1 + num2
+sub = num1 - num2
+mul = num1 * num2
 print (add)
 print(sub)
 print(mul)
-#check
 
 # task 20
 Name = input("Enter your name:")
@@ -107,7 +108,6 @@ Age = input("Enter your age:")
 Branch = input("Enter your branch name:")
 Semister = input("Enter your semister:")
 print("Name of the Student:",Name, "\nAge of the Student:",Age,"\nBranch of the Student:",Branch, "\nCurrent Semister of the Student:",Semister)
-#check
 
 # Viva Questions
 
